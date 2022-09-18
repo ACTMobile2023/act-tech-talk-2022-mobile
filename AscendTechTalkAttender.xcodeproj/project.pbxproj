@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B124A3FA28D7360A004E795D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B124A3F928D7360A004E795D /* ImagePicker.swift */; };
+		B12A63A828D4ADCA00B58806 /* AscendTechTalkAttenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63A728D4ADCA00B58806 /* AscendTechTalkAttenderApp.swift */; };
+		B12A63AC28D4ADCC00B58806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12A63AB28D4ADCC00B58806 /* Assets.xcassets */; };
+		B12A63AF28D4ADCC00B58806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12A63AE28D4ADCC00B58806 /* Preview Assets.xcassets */; };
+		B12A63B728D4AF7A00B58806 /* AttenderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63B628D4AF7A00B58806 /* AttenderListView.swift */; };
+		B12A63B928D4AF8C00B58806 /* AttenderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63B828D4AF8C00B58806 /* AttenderListViewModel.swift */; };
+		B12A63BC28D4B02D00B58806 /* AscendNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63BB28D4B02D00B58806 /* AscendNetworking.swift */; };
+		B12A63BE28D4B7CA00B58806 /* DataMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63BD28D4B7CA00B58806 /* DataMapping.swift */; };
+		B12A63C028D4B82500B58806 /* AscendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63BF28D4B82500B58806 /* AscendError.swift */; };
+		B12A63C228D4BA1200B58806 /* AscendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63C128D4BA1200B58806 /* AscendRequest.swift */; };
+		B12A63C528D4BA6200B58806 /* AscendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63C428D4BA6200B58806 /* AscendService.swift */; };
+		B12A63C828D4BAF700B58806 /* AscendStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63C728D4BAF700B58806 /* AscendStatus.swift */; };
+		B12A63CA28D4C20700B58806 /* Attender.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63C928D4C20700B58806 /* Attender.swift */; };
+		B12A63CD28D4CC2E00B58806 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63CC28D4CC2E00B58806 /* BaseViewModel.swift */; };
+		B12A63D028D4CDD300B58806 /* AttenderDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63CF28D4CDD300B58806 /* AttenderDTO.swift */; };
+		B12A63D228D4D3C700B58806 /* AttenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63D128D4D3C700B58806 /* AttenderView.swift */; };
+		B12A63D528D4E7F300B58806 /* AttenderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63D428D4E7F300B58806 /* AttenderDetailView.swift */; };
+		B12A63D728D4F3E100B58806 /* AttenderDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63D628D4F3E100B58806 /* AttenderDetailViewModel.swift */; };
+		B12A63DA28D50E6400B58806 /* EditAttenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63D928D50E6400B58806 /* EditAttenderView.swift */; };
+		B12A63DC28D50E7100B58806 /* EditAttenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63DB28D50E7100B58806 /* EditAttenderViewModel.swift */; };
+		B12A63DE28D51BA500B58806 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A63DD28D51BA500B58806 /* CameraService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B124A3F928D7360A004E795D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B12A63A428D4ADCA00B58806 /* AscendTechTalkAttender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AscendTechTalkAttender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12A63A728D4ADCA00B58806 /* AscendTechTalkAttenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendTechTalkAttenderApp.swift; sourceTree = "<group>"; };
+		B12A63AB28D4ADCC00B58806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B12A63AE28D4ADCC00B58806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B12A63B628D4AF7A00B58806 /* AttenderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenderListView.swift; sourceTree = "<group>"; };
+		B12A63B828D4AF8C00B58806 /* AttenderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenderListViewModel.swift; sourceTree = "<group>"; };
+		B12A63BB28D4B02D00B58806 /* AscendNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendNetworking.swift; sourceTree = "<group>"; };
+		B12A63BD28D4B7CA00B58806 /* DataMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMapping.swift; sourceTree = "<group>"; };
+		B12A63BF28D4B82500B58806 /* AscendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendError.swift; sourceTree = "<group>"; };
+		B12A63C128D4BA1200B58806 /* AscendRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendRequest.swift; sourceTree = "<group>"; };
+		B12A63C428D4BA6200B58806 /* AscendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendService.swift; sourceTree = "<group>"; };
+		B12A63C728D4BAF700B58806 /* AscendStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscendStatus.swift; sourceTree = "<group>"; };
+		B12A63C928D4C20700B58806 /* Attender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attender.swift; sourceTree = "<group>"; };
+		B12A63CC28D4CC2E00B58806 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		B12A63CF28D4CDD300B58806 /* AttenderDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenderDTO.swift; sourceTree = "<group>"; };
+		B12A63D128D4D3C700B58806 /* AttenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenderView.swift; sourceTree = "<group>"; };
+		B12A63D428D4E7F300B58806 /* AttenderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenderDetailView.swift; sourceTree = "<group>"; };
+		B12A63D628D4F3E100B58806 /* AttenderDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttenderDetailViewModel.swift; sourceTree = "<group>"; };
+		B12A63D928D50E6400B58806 /* EditAttenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAttenderView.swift; sourceTree = "<group>"; };
+		B12A63DB28D50E7100B58806 /* EditAttenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAttenderViewModel.swift; sourceTree = "<group>"; };
+		B12A63DD28D51BA500B58806 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B12A63A128D4ADCA00B58806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B124A3F828D735FF004E795D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B124A3F928D7360A004E795D /* ImagePicker.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B12A639B28D4ADCA00B58806 = {
+			isa = PBXGroup;
+			children = (
+				B12A63A628D4ADCA00B58806 /* AscendTechTalkAttender */,
+				B12A63A528D4ADCA00B58806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B12A63A528D4ADCA00B58806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63A428D4ADCA00B58806 /* AscendTechTalkAttender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B12A63A628D4ADCA00B58806 /* AscendTechTalkAttender */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63A728D4ADCA00B58806 /* AscendTechTalkAttenderApp.swift */,
+				B12A63C628D4BAA600B58806 /* Entity */,
+				B12A63CE28D4CDC300B58806 /* DTO */,
+				B12A63C328D4BA4700B58806 /* Service */,
+				B12A63BA28D4B01200B58806 /* Data */,
+				B12A63CB28D4CC2000B58806 /* Base */,
+				B12A63B528D4AF6000B58806 /* AttenderList */,
+				B12A63D328D4E7E100B58806 /* AttenderDetail */,
+				B12A63D828D50E4900B58806 /* EditAttender */,
+				B12A63AB28D4ADCC00B58806 /* Assets.xcassets */,
+				B124A3F828D735FF004E795D /* Utility */,
+				B12A63AD28D4ADCC00B58806 /* Preview Content */,
+			);
+			path = AscendTechTalkAttender;
+			sourceTree = "<group>";
+		};
+		B12A63AD28D4ADCC00B58806 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63AE28D4ADCC00B58806 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B12A63B528D4AF6000B58806 /* AttenderList */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63D128D4D3C700B58806 /* AttenderView.swift */,
+				B12A63B628D4AF7A00B58806 /* AttenderListView.swift */,
+				B12A63B828D4AF8C00B58806 /* AttenderListViewModel.swift */,
+			);
+			path = AttenderList;
+			sourceTree = "<group>";
+		};
+		B12A63BA28D4B01200B58806 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63BB28D4B02D00B58806 /* AscendNetworking.swift */,
+				B12A63BD28D4B7CA00B58806 /* DataMapping.swift */,
+				B12A63BF28D4B82500B58806 /* AscendError.swift */,
+				B12A63C128D4BA1200B58806 /* AscendRequest.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B12A63C328D4BA4700B58806 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63C428D4BA6200B58806 /* AscendService.swift */,
+				B12A63DD28D51BA500B58806 /* CameraService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B12A63C628D4BAA600B58806 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63C728D4BAF700B58806 /* AscendStatus.swift */,
+				B12A63C928D4C20700B58806 /* Attender.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		B12A63CB28D4CC2000B58806 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63CC28D4CC2E00B58806 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B12A63CE28D4CDC300B58806 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63CF28D4CDD300B58806 /* AttenderDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		B12A63D328D4E7E100B58806 /* AttenderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63D428D4E7F300B58806 /* AttenderDetailView.swift */,
+				B12A63D628D4F3E100B58806 /* AttenderDetailViewModel.swift */,
+			);
+			path = AttenderDetail;
+			sourceTree = "<group>";
+		};
+		B12A63D828D50E4900B58806 /* EditAttender */ = {
+			isa = PBXGroup;
+			children = (
+				B12A63D928D50E6400B58806 /* EditAttenderView.swift */,
+				B12A63DB28D50E7100B58806 /* EditAttenderViewModel.swift */,
+			);
+			path = EditAttender;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B12A63A328D4ADCA00B58806 /* AscendTechTalkAttender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B12A63B228D4ADCC00B58806 /* Build configuration list for PBXNativeTarget "AscendTechTalkAttender" */;
+			buildPhases = (
+				B12A63A028D4ADCA00B58806 /* Sources */,
+				B12A63A128D4ADCA00B58806 /* Frameworks */,
+				B12A63A228D4ADCA00B58806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AscendTechTalkAttender;
+			productName = AscendTechTalkAttender;
+			productReference = B12A63A428D4ADCA00B58806 /* AscendTechTalkAttender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B12A639C28D4ADCA00B58806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B12A63A328D4ADCA00B58806 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = B12A639F28D4ADCA00B58806 /* Build configuration list for PBXProject "AscendTechTalkAttender" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B12A639B28D4ADCA00B58806;
+			productRefGroup = B12A63A528D4ADCA00B58806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B12A63A328D4ADCA00B58806 /* AscendTechTalkAttender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B12A63A228D4ADCA00B58806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12A63AF28D4ADCC00B58806 /* Preview Assets.xcassets in Resources */,
+				B12A63AC28D4ADCC00B58806 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B12A63A028D4ADCA00B58806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12A63D728D4F3E100B58806 /* AttenderDetailViewModel.swift in Sources */,
+				B12A63D528D4E7F300B58806 /* AttenderDetailView.swift in Sources */,
+				B12A63CA28D4C20700B58806 /* Attender.swift in Sources */,
+				B12A63CD28D4CC2E00B58806 /* BaseViewModel.swift in Sources */,
+				B12A63A828D4ADCA00B58806 /* AscendTechTalkAttenderApp.swift in Sources */,
+				B12A63D228D4D3C700B58806 /* AttenderView.swift in Sources */,
+				B12A63C828D4BAF700B58806 /* AscendStatus.swift in Sources */,
+				B124A3FA28D7360A004E795D /* ImagePicker.swift in Sources */,
+				B12A63BC28D4B02D00B58806 /* AscendNetworking.swift in Sources */,
+				B12A63DE28D51BA500B58806 /* CameraService.swift in Sources */,
+				B12A63C028D4B82500B58806 /* AscendError.swift in Sources */,
+				B12A63DA28D50E6400B58806 /* EditAttenderView.swift in Sources */,
+				B12A63D028D4CDD300B58806 /* AttenderDTO.swift in Sources */,
+				B12A63DC28D50E7100B58806 /* EditAttenderViewModel.swift in Sources */,
+				B12A63C228D4BA1200B58806 /* AscendRequest.swift in Sources */,
+				B12A63B928D4AF8C00B58806 /* AttenderListViewModel.swift in Sources */,
+				B12A63C528D4BA6200B58806 /* AscendService.swift in Sources */,
+				B12A63BE28D4B7CA00B58806 /* DataMapping.swift in Sources */,
+				B12A63B728D4AF7A00B58806 /* AttenderListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B12A63B028D4ADCC00B58806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B12A63B128D4ADCC00B58806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B12A63B328D4ADCC00B58806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AscendTechTalkAttender/Preview Content\"";
+				DEVELOPMENT_TEAM = K42NS39LLK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascendtech.demoappdev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match development com.ascendtech.demoappdev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B12A63B428D4ADCC00B58806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AscendTechTalkAttender/Preview Content\"";
+				DEVELOPMENT_TEAM = K42NS39LLK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascendtech.demoappdev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match development com.ascendtech.demoappdev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B12A639F28D4ADCA00B58806 /* Build configuration list for PBXProject "AscendTechTalkAttender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12A63B028D4ADCC00B58806 /* Debug */,
+				B12A63B128D4ADCC00B58806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B12A63B228D4ADCC00B58806 /* Build configuration list for PBXNativeTarget "AscendTechTalkAttender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B12A63B328D4ADCC00B58806 /* Debug */,
+				B12A63B428D4ADCC00B58806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B12A639C28D4ADCA00B58806 /* Project object */;
+}
